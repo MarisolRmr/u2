@@ -10,8 +10,8 @@
 
 
     {{-- Estilos de tailwind --}}
-    @vite('resources/css/app.css') 
-    {{-- <link rel="stylesheet" href="/resources/css/app.css"> --}}
+    {{-- @vite('resources/css/app.css') --}}
+    <link rel="stylesheet" href="/resources/css/app.css">
 
 
     {{-- Scripts de tailwind --}}
