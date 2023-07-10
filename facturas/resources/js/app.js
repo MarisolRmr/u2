@@ -1,6 +1,4 @@
-import './bootstrap';
-
-import Dropzone from "dropzone";
+import Dropzone from 'dropzone';
 Dropzone.autoDiscover = false;
 
 // Configuración de Dropzone para archivos pdf
