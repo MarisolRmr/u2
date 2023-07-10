@@ -156,21 +156,21 @@
                     {{-- Form para la subida de archivos --}}
                     <div class=" flex justify-center">
 
-                        <div class="my-5 mx-5">
+                        
                             <form action="{{ route('factura.storepdf') }}" method="POST" enctype="multipart/form-data"
                                 id="dropzonepdf"
                                 class="dropzone border-dashed border-2 w-100 h-100 rounded flex justify-center items-center">
                                 @csrf
                             </form>
-                        </div>
+                        
 
-                        <div class="my-5 mx-5">
+                        
                             <form action="{{ route('factura.storexml') }}" method="POST" enctype="multipart/form-data"
                                 id="dropzonexml"
                                 class="dropzone border-dashed border-2 w-100 h-100 rounded flex justify-center items-center">
                                 @csrf
                             </form>
-                        </div>
+                        
                     </div>
 
                 </div>
