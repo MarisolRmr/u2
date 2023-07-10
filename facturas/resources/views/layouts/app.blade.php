@@ -10,8 +10,8 @@
 
 
     {{-- Estilos de tailwind --}}
-    @vite('resources/css/app.css') 
-    {{-- <link rel="stylesheet" href="/resources/css/app.css"> --}}
+    {{-- @vite('resources/css/app.css')  --}}
+    <link rel="stylesheet" href="/resources/css/app.css">
 
 
     {{-- Scripts de tailwind --}}
@@ -19,8 +19,8 @@
     {{-- <script src="https://cdn.jsdelivr.net/npm/dropzone@5.9.3/dist/min/dropzone.min.js"></script>     --}}
 
     
-    {{-- <script src="resources/js/app.js"></script> --}}
-    @vite('resources/js/app.js')
+    <script src="resources/js/app.js"></script>
+    {{-- @vite('resources/js/app.js') --}}
 
 
     <!-- Fonts and icons -->
@@ -31,27 +31,27 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
 
-    @vite('resources/css/nucleo-icons.css')
+    {{-- @vite('resources/css/nucleo-icons.css')
     @vite('resources/css/nucleo-svg.css')
-    @vite('resources/css/argon-dashboard-tailwind.css')
+    @vite('resources/css/argon-dashboard-tailwind.css') --}}
 
-    {{-- <link rel="stylesheet" href="resources/css/nucleo-icons.css">
+    <link rel="stylesheet" href="resources/css/nucleo-icons.css">
     <link rel="stylesheet" href="resources/css/nucleo-icons.css">
     <link rel="stylesheet" href="resources/css/nucleo-svg.css">
-    <link rel="stylesheet" href="resources/css/argon-dashboard-tailwind.css"> --}}
+    <link rel="stylesheet" href="resources/css/argon-dashboard-tailwind.css">
 
     <!-- Popper -->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
 
-    @vite('resources/js/plugins/chartjs.min.js')
+    {{-- @vite('resources/js/plugins/chartjs.min.js')
     @vite('resources/js/plugins/perfect-scrollbar.min.js')
     @vite('resources/js/argon-dashboard-tailwind.js')
-    @vite('resources/js/argon-dashboard-tailwind.min.js')
+    @vite('resources/js/argon-dashboard-tailwind.min.js') --}}
 
-    {{-- <script src="resources/js/plugins/chartjs.min.js"></script>
+    <script src="resources/js/plugins/chartjs.min.js"></script>
     <script src="resources/js/plugins/perfect-scrollbar.min.js"></script>
     <script src="resources/js/argon-dashboard-tailwind.js"></script>
-    <script src="resources/js/argon-dashboard-tailwind.min.js"></script> --}}
+    <script src="resources/js/argon-dashboard-tailwind.min.js"></script>
 
     <title>Facturas</title>
 </head>
