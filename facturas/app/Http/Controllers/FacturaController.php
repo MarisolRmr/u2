@@ -26,7 +26,7 @@ class FacturaController extends Controller{
 
         $facturas = Factura::all();
 
-        return view('listado_fr', [
+        return view('listados.listado_fr', [
             'user' => $user,
             'facturas' => $facturas
         ]);

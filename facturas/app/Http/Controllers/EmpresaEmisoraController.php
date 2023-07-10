@@ -52,7 +52,7 @@ class EmpresaEmisoraController extends Controller
 
         $empresa_emisora = EmpresaEmisora::all();
 
-        return view('listado_ee', [
+        return view('listados.listado_ee', [
             'user' => $user,
             'empresa_emisora' => $empresa_emisora
         ]);
