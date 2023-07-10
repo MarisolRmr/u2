@@ -42,7 +42,7 @@ class EmpresaReceptoraController extends Controller
 
         $empresa_receptora = EmpresaReceptora::all();
 
-        return view('listados.listado_er', [
+        return view('listado_er', [
             'user' => $user,
             'empresa_receptora' => $empresa_receptora
         ]);
