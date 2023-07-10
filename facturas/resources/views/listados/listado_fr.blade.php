@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('titulo')
-    Listado de Empresas Emisoras
+    Listado de Facturas
 @endsection
 
 @section('contenido_top')

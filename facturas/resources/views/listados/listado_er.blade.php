@@ -125,7 +125,7 @@
                                                 class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
                                                 <p
                                                     class="mb-0 text-xs leading-tight dark:text-white dark:opacity-80 text-slate-400">
-                                                    {{ $receptora->rfc_receptor }}</p>
+                                                    {{ $receptora->rfc }}</p>
                                             </td>
 
                                             <td
