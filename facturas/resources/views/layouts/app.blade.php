@@ -9,10 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
 
     <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css"/>
+    {{-- <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css"/> --}}
 
     {{-- Estilos de tailwind --}}
     {{-- @vite('resources/css/app.css')  --}}
+    <script src="/resources/js/app.js"></script>
     <link rel="stylesheet" href="/resources/css/app.css">
     @stack('styles')
 
@@ -21,8 +22,6 @@
     {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dropzone@5.9.3/dist/min/dropzone.min.css"> --}}
     {{-- <script src="https://cdn.jsdelivr.net/npm/dropzone@5.9.3/dist/min/dropzone.min.js"></script>     --}}
 
-    
-    <script src="/resources/js/app.js"></script>
     {{-- @vite('resources/js/app.js') --}}
 
 
