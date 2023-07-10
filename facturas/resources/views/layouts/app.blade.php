@@ -19,7 +19,7 @@
     {{-- <script src="https://cdn.jsdelivr.net/npm/dropzone@5.9.3/dist/min/dropzone.min.js"></script>     --}}
 
     
-    <script src="resources/js/app.js"></script>
+    <script src="/resources/js/app.js"></script>
     {{-- @vite('resources/js/app.js') --}}
 
 
@@ -35,10 +35,10 @@
     @vite('resources/css/nucleo-svg.css')
     @vite('resources/css/argon-dashboard-tailwind.css') --}}
 
-    <link rel="stylesheet" href="resources/css/nucleo-icons.css">
-    <link rel="stylesheet" href="resources/css/nucleo-icons.css">
-    <link rel="stylesheet" href="resources/css/nucleo-svg.css">
-    <link rel="stylesheet" href="resources/css/argon-dashboard-tailwind.css">
+    <link rel="stylesheet" href="/resources/css/nucleo-icons.css">
+    <link rel="stylesheet" href="/resources/css/nucleo-icons.css">
+    <link rel="stylesheet" href="/resources/css/nucleo-svg.css">
+    <link rel="stylesheet" href="/resources/css/argon-dashboard-tailwind.css">
 
     <!-- Popper -->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
@@ -48,10 +48,10 @@
     @vite('resources/js/argon-dashboard-tailwind.js')
     @vite('resources/js/argon-dashboard-tailwind.min.js') --}}
 
-    <script src="resources/js/plugins/chartjs.min.js"></script>
-    <script src="resources/js/plugins/perfect-scrollbar.min.js"></script>
-    <script src="resources/js/argon-dashboard-tailwind.js"></script>
-    <script src="resources/js/argon-dashboard-tailwind.min.js"></script>
+    <script src="/resources/js/plugins/chartjs.min.js"></script>
+    <script src="/resources/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="/resources/js/argon-dashboard-tailwind.js"></script>
+    <script src="/resources/js/argon-dashboard-tailwind.min.js"></script>
 
     <title>Facturas</title>
 </head>
